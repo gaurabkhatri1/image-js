@@ -1,4 +1,4 @@
-.slider {
+.slider{
     position: relative;
     margin: auto;
     width: 100%;
@@ -7,16 +7,33 @@
 
 }
 
-.slider-track {
+.slider-track{
     display: flex;
 }
-
-.slide {
+.slide{
     min-width: 100%;
     box-sizing: border-box;
 }
 
-.slider img {
+.slider img{
     width: 100%;
     height: 100%;
+}
+
+.slider-btn{
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color:aliceblue;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+.slider-btn.prev{
+    left: 10px;
+}
+.slider-btn.next{
+    right: 10px;
 }
